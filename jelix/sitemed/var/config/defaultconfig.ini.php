@@ -16,7 +16,7 @@ theme=default
 
 pluginsPath="app:plugins/,lib:jelix-plugins/"
 
-modulesPath="lib:jelix-modules/,app:modules/"
+modulesPath="lib:jelix-modules/,app:modules/,C:\wamp\www\jelix_1\devmed\jelix\sitemed\modules/"
 
 ; default domain name to use with jfullurl for example.
 ; Let it empty to use $_SERVER['SERVER_NAME'] value instead.
@@ -41,6 +41,7 @@ junittests.access=0
 jsoap.access=0
 
 sitemed.access=2
+easyshop.access=2
 [coordplugins]
 ;name = file_ini_name or 1
 
@@ -220,4 +221,5 @@ name=
 
 [datepickers]
 ;default = jelix/js/jforms/datepickers/default/init.js
+
 

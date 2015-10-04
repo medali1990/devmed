@@ -7,3 +7,5 @@ startAction="default:index"
 [responses]
 [modules]
 sitemed.access=2
+
+easyshop.access=2

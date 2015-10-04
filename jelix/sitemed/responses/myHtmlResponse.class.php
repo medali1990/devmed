@@ -24,7 +24,8 @@ class myHtmlResponse extends jResponseHtml {
     $this->addCssLink($baseDirectory."assets/bootstrap/css/simple-line-icons.css");
     $this->addCssLink($baseDirectory."assets/bootstrap/css/animate.css");
     $this->addCssLink($baseDirectory."assets/bootstrap/css/style.css");
-
+    $this->addCssLink('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+    
 
     $this->addJsLink($baseDirectory."assets/js/modernizr.custom.js");
     $this->addJsLink($baseDirectory."assets/js/jquery-1.11.1.min.js");
@@ -56,7 +57,7 @@ class myHtmlResponse extends jResponseHtml {
     protected function doAfterActions() {
         // Include all process in common for all actions, like the settings of the
         // main template, the settings of the response etc..
-
-        $this->body->assignIfNone('MAIN','<p>no content</p>');
+        
+        //$this->body->assignIfNone('MAIN','<p>no content</p>');
     }
 }

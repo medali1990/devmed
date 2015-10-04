@@ -29,6 +29,9 @@ jelix.firstversion=1.5.5
 jelix.firstversion.date="2015-02-24 16:02"
 sitemed.installed=1
 sitemed.version=0.1pre
+easyshop.installed=1
+easyshop.version=0.1pre
 [__modules_data]
 jelix.contexts="db:default"
+
 

@@ -17,7 +17,6 @@ class defaultCtrl extends jController {
         $rep->title="Dernieres actualités";
 
         $tpl=new jtpl();
-        
 
         $rep->body->assign('MAIN',$tpl->fetch('liste_news'));
 
