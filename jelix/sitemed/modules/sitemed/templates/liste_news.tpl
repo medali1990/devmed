@@ -1,0 +1,1 @@
+<p>template liste_news</p>

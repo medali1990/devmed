@@ -1,5 +1,6 @@
 {meta_html css $j_jelixwww.'design/jelix.css'}
 
+
 <div id="page">
     <div class="logo">Powered by <img src="{$j_jelixwww}design/images/logo_jelix_100.png" alt="Jelix"/></div>
 
